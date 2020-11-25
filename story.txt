@@ -1,0 +1,35 @@
+<--plot-->
+START
+[Anthony] Yo, what's up man? | Yoo -> $NEXT | Dog what's up? -> $NEXT+1
+[Anthony] Yoo my guy | Yeah, anyways what's up man? -> $NEXT+1
+[Anthony] Yee boy, you know I'm chilling out here | What you tryna do? -> $NEXT+1
+[Anthony] I guess I'm tryna see some anime if you know what I mean | I actually don't know what you mean -> $NEXT | Hell yeah brother, a man of culture -> $NEXT+1
+[Anthony] Uh, you know what I mean, some anime | Nah dog I still don't get it -> $NEXT
+[Anthony] Anyways yeah dog this is pretty sick, do you like my skateboard? | Yes -> STORYLINE A | Nah -> STORYLINE B
+
+STORYLINE A
+[Anthony] Up top man! Wait who is that? | Yo is that the final boss already? -> $NEXT
+[Anthony] Looks like it mans, aight so what you gonna do? | Erm, I guess I need to fight him? -> OLEKS FIGHT | Run? TF I ain't even got my wooden sword yet -> $NEXT
+[Anthony] Damn, you right, you right | Ye Ye -> $NEXT
+[Anthony] Ok, hear me out, let's go to storyline 2 in which I am mad at you. | Aight, sure why not -> STORYLINE B | No I don't want to fight you thot -> $NEXT
+[Anthony] Oh ok... | Go back to start -> START
+
+STORYLINE B
+[Anthony] Nah you trash *boss battle music plays* | Time to use my ultimate attack. MURDER -> $NEXT
+[Anthony] Oh frick oh god | *attack* -> $NEXT | *change mind* -> $NEXT+1
+[Anthony] Bleeh (am dead) | Go back to start -> START
+[Anthony] Oh so you weak now? | Nah you are -> STORYLINE B | Ye -> $NEXT
+[Anthony] ULTIMATE MOVE: ONE PUNCH MAN | AAAAAAAAA -> $NEXT
+[Anthony] You dead | Go back to start -> START
+
+OLEKS FIGHT
+[Oleks] I am evil monster mans | Yo what's up oleb? Loved your work with elemental 5! -> $NEXT | I am here to slay you -> $NEXT+1
+[Oleks] Always nice to meet a fan... But you know we still have to fight right? | Ye of course, aight let's go -> $NEXT
+[Oleks] So what are you going to do? | That's a good question -> $NEXT
+[Oleks] Yes it is... | Time to use the ultimate algorithm, MURDER -> $NEXT
+[Oleks] Wait wh- | Murder Oleb -> $NEXT
+[Oleks] Can we get an F for me? | Go back to start -> START
+
+<--settings-->
+Anthony -> https://www.babelio.com/users/AVT_Leonard-Anthony_7106.jpg
+Oleks -> http://geomhacks.com/images/IMG_E6855.JPG
